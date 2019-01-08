@@ -1,0 +1,17 @@
+document.writeln(" <script src='//adopdmp.adop.cc/adop_sdk_p2.2.0.min.js'><\/script>     ");
+document.writeln(" <script>     ");
+document.writeln(" adop_set({ad_date: '20190104230730',acid:'ID-181203042606-e7905e8ee7044efb',ctry:'ID',ip:'114.125.174.194',url:'https%3A%2F%2Fwww.islampos.com%2Fpeneliti-buktikan-menghafal-al-quran-bisa-mencegah-berbagai-penyakit-25359%2F',net:'Mediawayss', ad_weight:'100',ad_order:'1/2',ad_width:'1',ad_height:'1',ad_direction:'v',ad_full_loc:'https%3A%2F%2Fwww.islampos.com%2Fpeneliti-buktikan-menghafal-al-quran-bisa-mencegah-berbagai-penyakit-25359%2F',area_idx:'155add2c-0583-408a-8bf1-ca882c12f4e0',log_type:'basic'});     ");
+document.writeln(" <\/script>     ");
+document.writeln(" <img src='//idm.skplanet.com/pixel?nid=21&uid=ID-181203042606-e7905e8ee7044efb' width='0' height='0' style='position: absolute;'/>     ");
+document.writeln(" <div data-id='_mwayss-391159ffaa541470849da0d0c8ba2af8'></div>     ");
+document.writeln(" <script>           ");
+document.writeln("     (function(window, document, undefined) {     ");
+document.writeln("         var script_tag = document.createElement('script');     ");
+document.writeln("         script_tag.src = 'https://ad.mediawayss.com/ad/mwayss_invocation.min.js?pzoneid=1852&height=288&width=512&tld=islampos.com&ctype=div&ch=DOMAIN_HERE';     ");
+document.writeln("         var container = document.querySelectorAll('[data-id=_mwayss-391159ffaa541470849da0d0c8ba2af8]')[0];         ");
+document.writeln("         container.setAttribute('id', (container.getAttribute('data-id')+(new Date()).getTime()));     ");
+document.writeln("         container.removeAttribute('data-id');     ");
+document.writeln("         container.parentNode.insertBefore(script_tag, container);     ");
+document.writeln("     })(window, document);     ");
+document.writeln(" <\/script>     ");
+document.writeln(" <div style=\"position: absolute; left: -10000px; top: 0px; overflow: hidden; width:1px; height: 1px;\"><script src=\"//data.adop.cc/collect.php?log=com_imp&dt=20190104230730&aid=312361d1-716a-442e-a822-d42050219a5d&zid=155add2c-0583-408a-8bf1-ca882c12f4e0&r=Yjan\" style=\"width:1px; height:1px;\"><\/script></div>     ");
