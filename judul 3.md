@@ -5,9 +5,9 @@ peran orangtua
 --> motivasi menghafal
 
 motivasi menghafal alquran? (bahas tentang menghafal alquran terlebih dahulu)
-- apa itu alquran?
-- apa itu menghafal alquran?
-- mengapa kita sebaiknya menghafal alquran?
+<!-- - apa itu alquran? -->
+<!-- - apa itu menghafal alquran? -->
+<!-- - mengapa kita sebaiknya menghafal alquran? -->
 - apa saja keutamaan yang didapat apabila menghafal alquran?
 - apa aja manfaat yang kita dapatkan secara langsung apabila menghafal alquran?
 - bagaimana kualitas hafalan alquran pada zaman dahulu (rasul, sahabat, tabiin)
