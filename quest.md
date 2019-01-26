@@ -1,0 +1,2 @@
+- faktor yang mempengaruhi motivasi belajar, cari yang internal
+- jurnal-jurnal tentang motivasi belajar sebagai y
