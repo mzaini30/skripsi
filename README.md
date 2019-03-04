@@ -1,1 +1,0 @@
-Repositori ini berisi dengan skripsiku. Semoga cepat selesai. Amin.
