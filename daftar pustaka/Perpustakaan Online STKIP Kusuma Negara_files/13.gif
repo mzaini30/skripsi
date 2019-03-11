@@ -1,0 +1,420 @@
+<!---------------------------------- beckup data ------------------------------------------->
+<!----------------------selesai--------------------------------->
+<script language='Javascript'>
+	function daftarpustaka(pfld,pfltr) 
+	{
+		if (window.PsnList && window.PsnList.open && !window.PsnList.closed) 
+		{
+			window.PsnList.close();
+		}
+		PsnList = window.open('lib/listpustaka.php?pfld='+pfld+'&pfltr='+pfltr+'&pnama=A', 'List', 'width=390,height=450,scrollbars=yes');
+	}
+	function daftarwarna(pfld,pfltr) 
+	{
+		if (window.PsnList && window.PsnList.open && !window.PsnList.closed) 
+		{
+			window.PsnList.close();
+		}
+		PsnList = window.open('lib/listwarna.php?pfld='+pfld+'&pfltr='+pfltr+'&pnama=A', 'List', 'width=390,height=450,scrollbars=yes');
+	}
+	function daftarpemakai(pfld,pfltr) 
+	{
+		if (window.PsnList && window.PsnList.open && !window.PsnList.closed) 
+		{
+			window.PsnList.close();
+		}
+		PsnList = window.open('lib/listanggota.php?pfld='+pfld+'&pfltr='+pfltr+'&pnama=A', 'List', 'width=390,height=450,scrollbars=yes');
+	}
+	function daftaroperator(pfld,pfltr) 
+	{
+		if (window.PsnList && window.PsnList.open && !window.PsnList.closed) 
+		{
+			window.PsnList.close();
+		}
+		PsnList = window.open('lib/listoperator.php?pfld='+pfld+'&pfltr='+pfltr+'&pnama=A', 'List', 'width=390,height=450,scrollbars=yes');
+	}
+</script>
+
+<html>
+<head>
+<title>Perpustakaan Online STKIP Kusuma Negara</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script language='Javascript'>
+	function daftarpustaka(pfld,pfltr) 
+	{
+		if (window.PsnList && window.PsnList.open && !window.PsnList.closed) 
+		{
+			window.PsnList.close();
+		}
+		PsnList = window.open('lib/listpustaka.php?pfld='+pfld+'&pfltr='+pfltr+'&pnama=A', 'List', 'width=390,height=450,scrollbars=yes');
+	}
+	function daftarwarna(pfld,pfltr) 
+	{
+		if (window.PsnList && window.PsnList.open && !window.PsnList.closed) 
+		{
+			window.PsnList.close();
+		}
+		PsnList = window.open('lib/listwarna.php?pfld='+pfld+'&pfltr='+pfltr+'&pnama=A', 'List', 'width=390,height=450,scrollbars=yes');
+	}
+	function daftarpemakai(pfld,pfltr) 
+	{
+		if (window.PsnList && window.PsnList.open && !window.PsnList.closed) 
+		{
+			window.PsnList.close();
+		}
+		PsnList = window.open('lib/listanggota.php?pfld='+pfld+'&pfltr='+pfltr+'&pnama=A', 'List', 'width=390,height=450,scrollbars=yes');
+	}
+	function daftaroperator(pfld,pfltr) 
+	{
+		if (window.PsnList && window.PsnList.open && !window.PsnList.closed) 
+		{
+			window.PsnList.close();
+		}
+		PsnList = window.open('lib/listoperator.php?pfld='+pfld+'&pfltr='+pfltr+'&pnama=A', 'List', 'width=390,height=450,scrollbars=yes');
+	}
+</script>
+<script type="text/javascript" src="javascript/jquery.js"></script>
+<script type='text/javascript' src='javascript/jquery.autocomplete.js'></script>
+<script type="text/javascript" src="javascript/ajax-dynamic-content.js"></script>
+<script type="text/javascript" src="javascript/rounded-corners.js"></script>
+<script type="text/javascript" src="javascript/form-field-tooltip.js"></script>
+
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+#middle td tr td marquee font {
+	color: #00F;
+}
+-->
+</style>
+</head>
+
+<body>
+
+
+<table border="0" width="100%" cellpadding="0"  cellspacing="0"  >
+<tr >
+	<td width="100%" background="css/images/up.gif" height="17" ><IMG src="css/images/up-left.gif"  height="17" width="17"><td><IMG src="css/images/up-right.gif"  height="17" width="17"></td>
+</tr>
+</table>	
+
+<table border="0" width="100%" cellpadding="0"  cellspacing="0"  >
+<tr id="middle">
+	<td background="css/images/left.gif" width="17" >&nbsp;</td>
+  <td>
+ 
+			<table cellpadding="0" cellspacing="0"  border="0" width="100%">
+		
+				<tr>
+					<td colspan="3"  id="header-up">
+ 
+<!---------------------------------- menu atas ------------------------------------------->
+
+	<table width=100% >
+	<tr><td background="themes/ABD/images/tabs/4a.gif" height="20" align="right" class="menu_atas">
+     &nbsp; 
+     <font class="menu_atas_nonaktif" >   
+	  	</font>
+        		| <font class="menu_atas_aktif"> Halaman Depan </font> | 
+				<a href="lihatinformasi.php" > Informasi</a> |  
+	<!----
+			<a href="loginanggota.php" > Layanan Mandiri</a> | 
+	--->
+	
+		<font class="menu_atas_nonaktif">&nbsp;</font> 
+  	</td></tr></table>
+  	
+ 
+<!------------------------------- selesai ---------------------------------------->
+
+			 </td>
+				</tr>				
+ 				<tr>
+					<td height="160" colspan="6" id="header">
+							<table width="100%" height="140" border="0" cellpadding="0" cellspacing="0" background="css/images/atas3.jpg">
+
+<!---------------------------------- header ------------------------------------------->
+				<td>&nbsp;</td>
+			<td height="77" width="10">  </td><td>&nbsp;</td><td  id="header-title" >
+			<span class="style1"><span class="style9"></span></span><font size="4"><br> 
+			
+			</td>
+			<!------------------------------- selesai ---------------------------------------->
+<td id="header-img-right"><embed src="css/pustaka.swf" wmode="transparent" quality="high" width="100%" height="100%"></embed>								
+</table>
+
+	
+  </tr>    
+
+				<tr>
+						<td background="css/images/fond.gif" height="22" colspan="3"><marquee behavior="scroll" scrollamount="3" scrolldelay="1" onMouseOver="stop()" onMouseOut="start()"><font color="#FF0000" size="2"> <b>What we have without library ? We have no past and future</b></font></marquee>
+				  </td>
+				</tr>
+<!------------------------------- selesai ---------------------------------------->
+   <!---------------------------------- menu utama ------------------------------------------->
+		
+		
+<!------------------------------- selesai ---------------------------------------->   
+  <td id=leftmenu_td  valign="top" background="themes/ABD/images/tabs/fond.gif">
+   								
+<!------------------------------- END OF BAGIAN SUB MENU ---------------------------------------->
+
+<!------------------------------- BAGIAN LOGIN ---------------------------------------->
+					  
+</ul> <TABLE border="0" cellspacing="0" cellpadding="0">
+
+	<TR>
+		<TD>
+			<TABLE  border="0" cellspacing="0" cellpadding="0" background="themes/ABD/images/tabs/2.gif">
+				<TR>
+					<TD>
+						<TABLE  width="200" border="0" cellspacing="0" cellpadding="0" >
+							<TR>
+								<TD align="left"><img src="themes/ABD/images/tabs/1.gif" width="1" height="33"></TD>
+								<TD align="center">
+									<TABLE border="0" cellspacing="0" cellpadding="0" width="190">
+										<TR>
+											<TD><img src="themes/ABD/images/tabs/3.gif" width="1" height="33"></TD>
+											<TD background="themes/ABD/images/tabs/4.gif"  align="center" width="200"><div id="menu_title">MENU UTAMA</div></TD>
+											<TD><img src="themes/ABD/images/tabs/5.gif" width="1" height="33"></TD>
+										</TR>
+									</TABLE>
+								</TD>
+								<TD align="right"><img src="themes/ABD/images/tabs/6.gif" width="1" height="33"></TD>
+							</TR>
+						</TABLE>
+					</TD>
+				</TR>
+			</TABLE>
+		</TD>
+	</TR>
+	<TR>
+		<TD align="center">
+			<TABLE  width="200" border="0" cellspacing="0" cellpadding="0" background="themes/ABD/images/tabs/fond.gif">
+				<TR>
+					<TD background="themes/ABD/images/tabs/7.gif"><img src="themes/ABD/images/tabs/empty.gif" width="9" height="1"></TD>
+					<TD><img src="themes/ABD/images/tabs/empty.gif" width="9" height="1"></TD>
+					<TD width="164" align="center"><img src="themes/ABD/images/tabs/empty.gif" width="9" height="9"></TD>
+					<TD><img src="themes/ABD/images/tabs/empty.gif" width="9" height="1"></TD>
+					<TD background="themes/ABD/images/tabs/8.gif"><img src="themes/ABD/images/tabs/empty.gif" width="9" height="1"></TD>
+				</TR>
+				<TR>
+					<TD background="themes/ABD/images/tabs/7.gif"><img src="themes/ABD/images/tabs/empty.gif" width="9" height="1"></TD>
+					<TD><img src="themes/ABD/images/tabs/empty.gif" width="9" height="1"></TD>
+				  <TD width="164" align="left" id="menu_item"><ul>
+<li><a href="http://www.stkipkusumanegara.ac.id" >Profil Lembaga</a></li>
+<li><a href="penelusuran.php" >Pencarian Koleksi</a></li>
+<li><a href="minta.php" > Permintaan Koleksi</a></li>
+<li><a href="lappusdetail.php" > Jumlah Koleksi</a></li>
+<li><a href="saran.php" > Kotak Saran</a></li>
+<li><a href="daftarkunjungan.php" > Daftar Kunjungan</a></li>
+<li><a href="loginanggota.php" > Layanan Mandiri</a></li>
+<li><a href="mse.php" > Multi Search Engine</a></li>
+<li><a href="linkperpus.php" > Link Perpustakaan</a></li>
+<li><a href="penelusuran_elearning.php" > Informasi Perkuliahan</a></li>
+<li><a href="loginguru.php" > Login Dosen</a></li>
+<li><a href="loginadmin.php" > Login Admin</a></li>
+
+
+
+				  </TD>
+					<TD><img src="themes/ABD/images/tabs/empty.gif" width="9" height="1"></TD>
+					<TD background="themes/ABD/images/tabs/8.gif"><img src="themes/ABD/images/tabs/empty.gif" width="9" height="1"></TD>
+				</TR>
+				<TR>
+					<TD background="themes/ABD/images/tabs/9.gif"><img src="themes/ABD/images/tabs/empty.gif" width="9" height="9"></TD>
+					<TD><img src="themes/ABD/images/tabs/empty.gif" width="9" height="9"></TD>
+					<TD width="164" ></TD>
+					<TD><img src="themes/ABD/images/tabs/empty.gif" width="9" height="9"></TD>
+					<TD background="themes/ABD/images/tabs/10.gif"><img src="themes/ABD/images/tabs/empty.gif" width="9" height="9"></TD>
+				</TR>
+				<TR>
+					<TD background="themes/ABD/images/tabs/11.gif"><img src="themes/ABD/images/tabs/empty.gif" width="9" height="9"></TD>
+					<TD background="themes/ABD/images/tabs/12.gif"><img src="themes/ABD/images/tabs/empty.gif" width="9" height="9"></TD>
+					<TD width="164" background="themes/ABD/images/tabs/13.gif"></TD>
+					<TD background="themes/ABD/images/tabs/14.gif"><img src="themes/ABD/images/tabs/empty.gif" width="9" height="9"></TD>
+					<TD background="themes/ABD/images/tabs/15.gif"><img src="themes/ABD/images/tabs/empty.gif" width="9" height="9"></TD>
+				</TR>
+			</TABLE>
+		</TD>
+	</TR>
+</TABLE>
+
+<center>
+    
+</center><br><br>
+<html>
+<head>
+<title>Contoh Counter dengan image</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<center><img src="css/images/pengunjung.jpg" width="20" height="30">
+
+<table cellpadding=0 cellspacing=0 border=0><tr align=center>
+<td><img src=http://192.168.0.101/lib-stkipkn/counter/1.gif width=9 height=12></td>
+<td><img src=http://192.168.0.101/lib-stkipkn/counter/3.gif width=9 height=12></td>
+<td><img src=http://192.168.0.101/lib-stkipkn/counter/7.gif width=9 height=12></td>
+<td><img src=http://192.168.0.101/lib-stkipkn/counter/8.gif width=9 height=12></td>
+<td><img src=http://192.168.0.101/lib-stkipkn/counter/7.gif width=9 height=12></td>
+<td><img src=http://192.168.0.101/lib-stkipkn/counter/6.gif width=9 height=12></td>
+</tr></table>
+
+</center>
+</body>
+</html>
+<br>
+</td>
+<td   valign="top" id="maincontent" >
+<script src="DWConfiguration/ActiveContent/IncludeFiles/AC_RunActiveContent.js" type="text/javascript"></script>
+
+<font size="4"><strong></strong></font> 
+<table width="100%">
+  <tr> 
+    <td width="77%" valign="top"><div align="justify"> 
+        <strong><font color="#993333"><u>SEJARAH</u></font></strong> ! <a href="koleksi.php">Koleksi</a> ! <a href="layanan.php" target="_parent">Layanan</a> ! <a href="organisasi.php">Organisasi</a> ! <br>
+        -------------------------------------------------------------------------------------------------<br>
+        <br>
+        Perpustakaan Sekolah Tinggi Keguruan dan Ilmu Pendidikan (STKIP) Kusuma 
+        Negara mulai berdiri pada tahun 1985, dengan koleksi awal berjumlah 100 
+        eksemplar buku, serta 3 judul majalah dalam negeri. Dari tahun ke tahun 
+        Perpustakaan terus dikembangkan, perkembangan yang sangat signifikan terjadi 
+        pada tahun ajaran 2005 &#8211; 2006 pada saat kampus STKIP Kusuma Negara 
+        beserta perpustakaan menempati gedung baru berlantai 3 hasil renovasi 
+        gedung lama dan perpustakaan berada di salah satu satu ruang di lantai 
+        3. Kini dengan adanya perluasan gedung STKIP Kusuma Negara dengan sendirinya 
+        luas ruang perpustakaan juga bertambah. Pada tahun 2011 ini telah tersedia 
+        ruang baca yang sangat memadai dan dilengkapi dengan hotspot untuk memudahkan 
+        dosen dan mahasiswa mengakses informasi ilmiah di ruang tersebut.<BR>
+        <BR>
+        Sejalan dengan perkembangan STKIP Kusuma Negara, pada awal Januari 2007 
+        mulai dilakukan pengembangan perpustakaan secara besar-besaran baik pengembangan 
+        koleksi, software otomasi perpustakaan, maupun sumber daya manusianya. 
+        Sesuai dengan arah perkembangan perpustakaan yang tidak lagi ke arah fisik 
+        bangunan tetapi ke arah perluasan akses informasi global yang tidak dibatasi 
+        oleh ruang dan waktu, maka pengembangan software otomasi perpustakaan 
+        dirancang berbasis web yang terhubung ke internet. Dengan konsep perpustakaan 
+        tanpa dinding (Library Without Walls) serta diawali dengan terbentuknya 
+        situs STKIP Kusuma Negara, Perpustakaan menyediakan layanan akses internet 
+        bagi pemustakanya dan memberikan layanan online pada awal April tahun 
+        2007 seperti layanan penelusuran artikel, layanan referensi, pengusulan 
+        buku baru, dsb. Layanan perpustakaan STKIP Kusuma Negara dapat diakses 
+        secara online melalui http://www.stkipkusumanegara.ac.id/library/.<br>
+        <br>
+		Setelah melalui proses evaluasi terhadap kinerja perpustakaan nulai tahun 2011 diupayakan kembali pengembangan lebih lanjut dari yang telah dicapai sebelumnya. Diantara pengembangan yang dilakukan adalah upgrade system perpustakaan disamping pengembangan koleksi tentunya. Dengan demikian Perpustakaan STKIP Kusuma Negara tidak hanya berperan sebagai pusat informasi saja, tetapi ikut membentuk masyarakat belajar dengan menjadi pendamping proses belajar dan mitra professional bagi masyarakat akademis dan praktisi tanpa dibatasi oleh ruang dan waktu.<br>
+      </div></td>
+    <td width="23%" align="center" valign="top"><div align="center"> 
+	
+<br>
+
+<form enctype="multipart/form-data" method="get" action="caripustaka.php">	            				
+            <table class="formulirtelusur" width="86%" height="126" align="center" id="searchbox">
+  <td width="76%"><font size="2"><strong>KATALOG</strong></font></td>
+    <tr>
+       <td width="76%"><input type="text"  name="kata_kunci" size="22" tooltipText=>&nbsp;&nbsp;</td>
+    <tr>
+    
+    <td width="76%">
+   <select class="textbox" name="kategori">
+   <option  value="all">Semua Bidang</option>
+	<option  value="2">Judul</option>
+	<option  value="4">Pengarang</option>
+	<option  value="5">Penerbit</option>
+	<option  value="9">Subjek</option>
+	<option  value="6">Abstraksi</option>
+	<option  value="10">Tahun</option>
+	<option  value="14">Bahasa</option>
+	<option  value="15">Nomor Induk</option>
+	</select>	</td></tr>
+	<tr>
+	 
+	 <td width="76%"><select class="textbox" name="jenis">
+	<option  value="11">Buku</option>
+	<option  value="13">Karya Ilmiah</option>
+	<option  value="12">Artikel</option>
+	</select>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+<tr></tr><td width="76%"><input name="submit" type="submit" value=" Cari ">  <a href="penelusuran_adv.php">Advance Search</a>
+</tr>
+<tr>
+  <td><font size="2">&nbsp;</font></tr>
+<tr>
+  <td><font size="2"><strong>e-Resources</strong></font></tr>
+<tr>
+  <td><a href="http://isjd.pdii.lipi.go.id/index.php/Search.html?act=caridata" ><img src="css/images/isjd.jpg" width="150" height="30" /></tr>
+<tr>
+  <td><a href="http://www.doaj.org/" ><img src="css/images/doaj.jpg" width="150" height="30" /></tr>
+<tr>
+  <td><a href="http://garuda.depdiknas.go.id/" ><img src="css/images/garuda.jpg" width="150" height="30"/></tr>
+<tr>
+  <td><a href="http://pdni.pnri.go.id/" ><img src="css/images/PDNI.jpg" width="150" height="30"/></tr>
+
+</table>
+</form>	
+
+<br>
+
+
+
+<br> 
+</div></td>
+  </tr> 
+</table>
+<td valign=top width=200 align=center id="maincontent" >
+															</td>
+				</tr>
+				<tr>
+					<td background="css/images/fond.gif" colspan="50" id="footer"><center><font size="1">Sistem Automasi Perpustakaan <b>STKIP Kusuma Negara</b><br>Jl. Raya Bogor Km.24 Cijantung - Jaktim&nbsp;Telp: 
+021-87791773<br><b><font color="#3366FF">MyPUSTAKA</font></b> &copy; 2006 - 2019 <b>Ade Putra, S.IP (ade.jip@gmail.com)</b><br>Untuk tampilan terbaik gunakan browser : IE Ver.5.0 atau diatasnya dengan resulasi : 1024 x 768</font></center></td>
+			    </tr>
+			</table> 
+
+
+	</td>
+	<td background="css/images/right.gif" width="17" >&nbsp;</td>
+</tr>
+</table>
+<table border="0" width="100%" cellpadding="0"  cellspacing="0"  >
+<tr >
+	<td width="100%" background="css/images/down.gif" height="17" ><IMG src="css/images/down-left.gif"  height="17" width="17"><td><IMG src="css/images/down-right.gif"  height="17" width="17"></td>
+</tr>
+</table>	
+</body>
+</html>
+<script language='javascript'>
+message = "Selamat datang di perpustakaan STKIP Kusuma Negara............... ^" +
+"Terima kasih atas kunjungannya ............... ^" +
+"Jangan segan-segan untuk kembali lagi ............... ^"
+
+scrollSpeed = 80
+lineDelay = 0
+
+// Do not change the text below //
+
+txt = ""
+
+function scrollText(pos) {
+if (message.charAt(pos) != '^') {
+txt = txt + message.charAt(pos)
+status = txt
+pauze = scrollSpeed
+}
+else {
+pauze = lineDelay
+txt = ""
+if (pos == message.length-1) pos = -1
+}
+pos++
+setTimeout("scrollText('"+pos+"')",pauze)
+}
+
+scrollText(0)
+</script>
+<script type="text/javascript">
+var tooltipObj = new DHTMLgoodies_formTooltip();
+tooltipObj.setTooltipPosition('right');
+tooltipObj.setPageBgColor('#EEEEEE');
+tooltipObj.setTooltipCornerSize(15);
+tooltipObj.initFormFieldTooltip();
+</script>
